@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 669417827}
   - component: {fileID: 669417826}
   - component: {fileID: 669417829}
+  - component: {fileID: 669417830}
   m_Layer: 5
   m_Name: Setting Button
   m_TagString: Untagged
@@ -310,20 +311,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1195625208}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1237694546}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
+      - m_Target: {fileID: 669417830}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: buttonClicked
         m_Mode: 1
         m_Arguments:
@@ -384,7 +373,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19486933e2525465f97d60081abec641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newScene: '"Setting"'
+--- !u!114 &669417830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669417824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newScene: Setting
 --- !u!1 &706376326
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,51 +573,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195625208}
   m_CullTransparentMesh: 1
---- !u!1 &1237694543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1237694545}
-  - component: {fileID: 1237694546}
-  m_Layer: 0
-  m_Name: MenuController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1237694545
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237694543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 170.13869, y: 215.12428, z: -0.08769746}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1237694546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237694543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _newScene: Setting
 --- !u!1 &1332628513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1093,7 @@ GameObject:
   - component: {fileID: 2026432813}
   - component: {fileID: 2026432812}
   - component: {fileID: 2026432815}
+  - component: {fileID: 2026432816}
   m_Layer: 5
   m_Name: Credits Button
   m_TagString: Untagged
@@ -1209,10 +1166,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1195625208}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2026432816}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: buttonClicked
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1271,7 +1228,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19486933e2525465f97d60081abec641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newScene: 
+--- !u!114 &2026432816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026432810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newScene: Credits
 --- !u!1 &2061260012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1391,7 @@ GameObject:
   - component: {fileID: 2122141816}
   - component: {fileID: 2122141815}
   - component: {fileID: 2122141818}
+  - component: {fileID: 2122141819}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -1494,10 +1464,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1195625208}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2122141819}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: buttonClicked
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1556,4 +1526,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19486933e2525465f97d60081abec641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newScene: 
+--- !u!114 &2122141819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122141813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newScene: Main
