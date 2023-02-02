@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ButtonThroughKeySelection : MonoBehaviour
+public class MenuButtonKeyboard : MonoBehaviour
 {
 
     public void Update()

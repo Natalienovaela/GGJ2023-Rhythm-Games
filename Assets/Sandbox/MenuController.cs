@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MenuController : MonoBehaviour
 {
     [Header("Scene To Load")]
     public string _newScene;
