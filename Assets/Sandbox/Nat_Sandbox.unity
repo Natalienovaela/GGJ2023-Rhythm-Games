@@ -385,7 +385,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTextValue: {fileID: 0}
+  volumeSlider: {fileID: 0}
   _newScene: Setting
+  MusicSprite: {fileID: 0}
+  MusicSpriteSelected: {fileID: 0}
+  SoundSprite: {fileID: 0}
+  SoundSpriteSelected: {fileID: 0}
 --- !u!1 &706376326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,7 +1246,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTextValue: {fileID: 0}
+  volumeSlider: {fileID: 0}
   _newScene: Credits
+  MusicSprite: {fileID: 0}
+  MusicSpriteSelected: {fileID: 0}
+  SoundSprite: {fileID: 0}
+  SoundSpriteSelected: {fileID: 0}
 --- !u!1 &2061260012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1313,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'CREDITS
 
-    (J)'
+    (G)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1538,4 +1550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4c2367d6dbbc46328566abacd75c149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeTextValue: {fileID: 0}
+  volumeSlider: {fileID: 0}
   _newScene: Main
+  MusicSprite: {fileID: 0}
+  MusicSpriteSelected: {fileID: 0}
+  SoundSprite: {fileID: 0}
+  SoundSpriteSelected: {fileID: 0}

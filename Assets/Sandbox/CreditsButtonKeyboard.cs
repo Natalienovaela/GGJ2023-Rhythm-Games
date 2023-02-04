@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SettingButtonKeyboard : MonoBehaviour
+public class CreditsButtonKeyboard : MonoBehaviour
 {
     void Update()
     {
