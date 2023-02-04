@@ -131,13 +131,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3253183627408326017, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
+      propertyPath: keyToSing
+      value: 104
+      objectReference: {fileID: 0}
     - target: {fileID: 5939751050646135014, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: keyToSing
-      value: 103
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960616, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_Name
-      value: DropletNPCG
+      value: DropletNPCH
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960618, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_RootOrder
@@ -205,6 +209,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3253183627408326017, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
+      propertyPath: keyToSing
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5939751050646135014, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: keyToSing
       value: 100
       objectReference: {fileID: 0}
@@ -277,13 +285,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3253183627408326017, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
+      propertyPath: keyToSing
+      value: 106
+      objectReference: {fileID: 0}
     - target: {fileID: 5939751050646135014, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: keyToSing
-      value: 104
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960616, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_Name
-      value: DropletNPCH
+      value: DropletNPCJ
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960618, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_RootOrder
@@ -352,11 +364,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3253183627408326017, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: keyToSing
-      value: 101
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5939751050646135014, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
+      propertyPath: keyToSing
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960616, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_Name
-      value: DropletNPCE
+      value: DropletNPCF
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960618, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_RootOrder
@@ -404,7 +420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960619, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960619, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_SortingLayerID
@@ -423,13 +439,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3253183627408326017, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
+      propertyPath: keyToSing
+      value: 103
+      objectReference: {fileID: 0}
     - target: {fileID: 5939751050646135014, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: keyToSing
-      value: 102
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960616, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_Name
-      value: DropletNPCF
+      value: DropletNPCG
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960618, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_RootOrder
@@ -477,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960619, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6284430805051960619, guid: 1ad37b776bccb4f0da2048de5ac38836, type: 3}
       propertyPath: m_SortingLayerID
