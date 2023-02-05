@@ -14,6 +14,7 @@ public class Root : MonoBehaviour
         public GameObject perfectBG;
         public GameObject incomingBG;
         public GameObject baseBG;
+        public KeyCode interactionKey;
         
         bool isGameplayRunning = false;
     
@@ -34,7 +35,7 @@ public class Root : MonoBehaviour
     {
     if(isGameplayRunning)
     {
-      if (Input.GetKeyDown(KeyCode.G))
+      if (Input.GetKeyDown(interactionKey))
     {
     incomingBG.SetActive(false);
         incomingMask.Reset(true);

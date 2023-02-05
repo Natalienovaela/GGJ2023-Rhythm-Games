@@ -59,3 +59,12 @@ TagManager:
   - name: G
     uniqueID: 3169439749
     locked: 0
+  - name: Incoming
+    uniqueID: 465903535
+    locked: 0
+  - name: Perfect
+    uniqueID: 1321719379
+    locked: 0
+  - name: Base
+    uniqueID: 3418822375
+    locked: 0
