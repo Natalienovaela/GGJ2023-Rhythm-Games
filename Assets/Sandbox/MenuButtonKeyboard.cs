@@ -19,7 +19,7 @@ public class MenuButtonKeyboard : MonoBehaviour
             SceneManager.LoadScene("Setting");
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             SceneManager.LoadScene("Credits");
         }
