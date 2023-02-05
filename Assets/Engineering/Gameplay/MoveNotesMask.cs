@@ -45,7 +45,9 @@ private float rampUpDuration = 1.0f;
     }
     
     public void ToggleRunning(bool isRunning){
+
         running = isRunning;
+                Debug.Log("running is toggling" + running);
     }
     
     public void Reset(bool resetToA)

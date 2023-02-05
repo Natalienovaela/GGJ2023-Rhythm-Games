@@ -6,8 +6,115 @@
   },
 
   {
-    "time": 5.0,
+    "time": 2.0,
     "noteType": "long",
     "noteKey": "D"
+  },
+
+  {
+    "time": 3.0,
+    "noteType": "small",
+    "noteKey": "F"
+  },
+
+  {
+    "time": 4.0,
+    "noteType": "long",
+    "noteKey": "D"
+  },
+
+  {
+    "time": 5.0,
+    "noteType": "small",
+    "noteKey": "J"
+  },
+
+  {
+    "time": 6.0,
+    "noteType": "long",
+    "noteKey": "H"
+  },
+
+  {
+    "time": 7.0,
+    "noteType": "small",
+    "noteKey": "F"
+  },
+
+  {
+    "time": 8.0,
+    "noteType": "long",
+    "noteKey": "D"
+  },
+
+  {
+    "time": 9.0,
+    "noteType": "small",
+    "noteKey": "G"
+  },
+
+  {
+    "time": 10.0,
+    "noteType": "long",
+    "noteKey": "J"
+  },
+  {
+    "time": 11.0,
+    "noteType": "small",
+    "noteKey": "G"
+  },
+
+  {
+    "time": 12.0,
+    "noteType": "long",
+    "noteKey": "D"
+  },
+
+  {
+    "time": 13.0,
+    "noteType": "small",
+    "noteKey": "F"
+  },
+
+  {
+    "time": 14.0,
+    "noteType": "long",
+    "noteKey": "D"
+  },
+
+  {
+    "time": 15.0,
+    "noteType": "small",
+    "noteKey": "J"
+  },
+
+  {
+    "time": 16.0,
+    "noteType": "long",
+    "noteKey": "H"
+  },
+
+  {
+    "time": 17.0,
+    "noteType": "small",
+    "noteKey": "F"
+  },
+
+  {
+    "time": 18.0,
+    "noteType": "long",
+    "noteKey": "D"
+  },
+
+  {
+    "time": 19.0,
+    "noteType": "small",
+    "noteKey": "G"
+  },
+
+  {
+    "time": 20.0,
+    "noteType": "long",
+    "noteKey": "J"
   }
 ]

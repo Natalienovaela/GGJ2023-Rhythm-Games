@@ -47,7 +47,7 @@ public class Root : MonoBehaviour
     public void RunNoteFlow()
     {
         isNoteFlowRunning = true;
-       downMovementMask.ToggleRunning(true);
+        downMovementMask.ToggleRunning(true);
     }
     
     
@@ -61,6 +61,6 @@ public class Root : MonoBehaviour
 
         missedBG.SetActive(true);
         upMovementMask.ToggleRunning(true);
-    
+        downMovementMask.Reset(true);
     }
 }
