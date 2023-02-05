@@ -11,7 +11,7 @@ public class MenuButtonKeyboard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            SceneManager.LoadScene("Play");
+            SceneManager.LoadScene("Main");
         }
 
         if (Input.GetKeyDown(KeyCode.F))
