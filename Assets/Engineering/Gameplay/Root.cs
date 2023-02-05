@@ -16,7 +16,7 @@ public class Root : MonoBehaviour
         public GameObject baseBG;
         public KeyCode interactionKey;
         
-        bool isGameplayRunning = false;
+        bool isNoteFlowRunning = false;
     
     public enum CompletionStatus
     {
@@ -28,12 +28,12 @@ public class Root : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     StartGameplay();
+
     }
     
     void Update()
     {
-    if(isGameplayRunning)
+    if(isNoteFlowRunning)
     {
       if (Input.GetKeyDown(interactionKey))
     {
@@ -44,9 +44,9 @@ public class Root : MonoBehaviour
     }
     }
     
-    void StartGameplay()
+    public void RunNoteFlow()
     {
-    isGameplayRunning = true;
+        isNoteFlowRunning = true;
        downMovementMask.ToggleRunning(true);
     }
     
