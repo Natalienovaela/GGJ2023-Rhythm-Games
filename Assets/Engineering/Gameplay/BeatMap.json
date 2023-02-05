@@ -1,0 +1,13 @@
+[
+  {
+    "time": 1.0,
+    "noteType": "small",
+    "noteKey": "G"
+  },
+
+  {
+    "time": 5.0,
+    "noteType": "long",
+    "noteKey": "D"
+  }
+]
